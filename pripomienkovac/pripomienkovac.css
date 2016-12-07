@@ -1,0 +1,9 @@
+#pripomienkovac-box{text-align: center;}
+#pripomienkovac {font-size: 1.3em;}
+
+#ulohy {overflow: auto;}
+
+#pripomienkovacButton {}
+
+.tag{background-color: #fff; padding: 5px 10px; display: inline-block; color: #333; margin: 10px; -moz-transition: all 100ms linear;    -o-transition: all 100ms linear;    -ms-transition: all 100ms linear;    transition: all 100ms linear;}
+.tag:hover{background-color: #dadada;}

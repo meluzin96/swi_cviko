@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="sk">
+<head>
+<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'>
+<meta charset="utf-8" />
+<title>O nás</title>
+<meta name="description" content="" />
+<meta name="keywords" content="" />
+
+<meta name="author" content="Tím #23" />
+<link rel="icon" type="image/png" href="source/images/favicon.ico">
+<link type="text/css" href="source/css/wvw.css" rel="stylesheet" />
+<link type="text/css" href="source/css/owl.css" rel="stylesheet" />
+<link type="text/css" href="source/css/fnts.css" rel="stylesheet" />
+<link type="text/css" href="source/css/style.css" rel="stylesheet" />
+<link type="text/css" href="pripomienkovac/pripomienkovac.css" rel="stylesheet" />
+</head>
+<body onload="getBreadcrumb(document,document.location,document.title)">
+<main id="container" class="wow fadeInUp" data-wow-delay="0.2s">
+	<div class="wrapper">
+	<header class="header">
+		<div class="logobox">
+			<a href="index.html" class="logo">Technické pamiatky Slovenska</a>
+			<div class="submenu">
+				<div id="datum" class="dinblock"></div> | 
+				<div id="counter" class="dinblock"></div>
+			</div>
+		</div>
+		<div class="navigation">
+			<ul id="navi" class="wow fadeInUp" data-wow-delay="0.3s"></ul>
+		</div>
+	</header>
+	<div id="breadcrumbs"></div>
+	<aside id="pripomienkovac-box">
+		<h2>Pripomienkovač</h2>
+        <div id="pripomienkovac">
+            <div id="ulohy">
+            </div>
+            <input type="button" class="button_default button_default_m" id="pripomienkovacButton" value="Nová úloha" onclick="newWork()">
+        </div>	
+	</aside>
+		
+
+
+	<div class="talcenter">
+            <h3>Kalendár slovenských mien</h3>
+         
+            <div id="result"></div>
+            Zadaj meno alebo dátum(dd.mm.):<br>
+            <form id="zistiMeniny">
+            <input type="text" id="meninyVstup" value="">
+            <button class="button_default button_default_m">Zisti meniny</button>	
+            </form>
+
+	</div>
+
+
+
+
+	<div class="promoimage">
+		<a href=""><p>Objaviť viac pamiatok</p> <span class="icon-arrow-right2"></span></a>
+	</div>	
+	<aside>
+		<div class="links">
+			Nájdete nás na
+			<ul>
+				<li><a href="https://is.stuba.sk/auth/lide/clovek.pl?id=74679" target="_blank"><span class="icon-facebook3"></span>Facebook</a></li>
+				<li><a href="https://is.stuba.sk/auth/lide/clovek.pl?id=74679"><span class="icon-googleplus4"></span>Google+</a></li>
+			</ul>
+		</div>
+	</aside>
+	</div>
+	<div id="footer">
+	<p>© 2016 · <a href="tim" target="_blank"><span class="icon-heart"></span> Vytvorené tímom #23. Viac info</a></p>
+	</div>		
+</main>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script src="source/js/owl.carousel.min.js"></script>
+<script src="source/js/wvw.js"></script>
+<script src="source/js/breadcrumbs.js"></script>
+<script src="pripomienkovac/pripomienkovac.js"></script>
+<script src="source/menu.js"></script>
+<script src="source/pocitadlo.js"></script>
+<script src="source/meniny.js"></script>
+<script src="source/stcore.js"></script>
+</body>
+</html>
